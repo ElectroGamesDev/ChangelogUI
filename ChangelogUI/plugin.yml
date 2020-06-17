@@ -1,0 +1,11 @@
+name: Changelog
+version: 1.0.0
+main: Electro\Changelog\Main
+api: [3.0.0, 4.0.0]
+author: Electro
+
+commands:
+  changelog:
+    usage: /changelog
+    aliases: [cl]
+    description: "Open the changelogs of the Server"
