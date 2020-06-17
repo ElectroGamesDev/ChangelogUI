@@ -1,3 +1,5 @@
+# Subscribe to Electro Games on YouTube!
+
 # Info
  - Commands: /changelog and /cl
  - API: 3.0.0
