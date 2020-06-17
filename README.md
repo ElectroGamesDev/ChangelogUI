@@ -1,6 +1,6 @@
 # Info
-Commands: /changelog and /cl
-API: 3.0.0
+ - Commands: /changelog and /cl
+ - API: 3.0.0
 # Dependencies
 FormAPI: https://poggit.pmmp.io/p/formapi
 # Config
