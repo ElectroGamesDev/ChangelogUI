@@ -6,7 +6,7 @@ use_in_game: "§cUse this command in the game"
 changelog.msg: "§aChangelog"
 
 # Enter the Changelog Title.
-title: "§l§o§aCubicPE Changelog"
+title: "§lChangelog"
 
 # Enter Your Server Rules.
 description: "§b1.0 > Example 1 \n§b1.1 Example 2 \n§b1.3 > Example 3"
