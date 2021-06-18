@@ -18,6 +18,10 @@ use pocketmine\command\CommandExecutor;
 use pocketmine\command\ConsoleCommandSender;
 
 class Main extends PluginBase implements Listener{
+   
+   public function onJoin(PlayerJoinEvent $event){
+       $this->saveDefaultConfig();
+   }
 
    public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool {
        switch($cmd->getName()) {
