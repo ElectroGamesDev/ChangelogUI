@@ -19,7 +19,7 @@ use pocketmine\command\ConsoleCommandSender;
 
 class Main extends PluginBase implements Listener{
    
-   public function onJoin(PlayerJoinEvent $event){
+   public function onEnable()
        $this->saveDefaultConfig();
    }
 
