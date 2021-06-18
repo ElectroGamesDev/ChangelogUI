@@ -9,7 +9,7 @@ changelog.msg: "§aChangelog"
 title: "§l§o§aCubicPE Changelog"
 
 # Enter Your Server Rules.
-description: "§b1.0 > Added SkyWars \n§b1.1 Added TNT Run \n§b1.3 > Added Insane SkyWars\n§b§lCubicPE.tk"
+description: "§b1.0 > Example 1 \n§b1.1 Example 2 \n§b1.3 > Example 3"
 
 # Put the Closing Button.
-btn: "§l§o§aOK \n§r§o§fTap to Close"
+close_button: "§l§o§cExit \n§r§o§fTap to Close"
