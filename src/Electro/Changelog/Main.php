@@ -49,7 +49,7 @@ class Main extends PluginBase implements Listener{
            });
            $form->setTitle($this->getConfig()->get("title"));
            $form->setContent($this->getConfig()->get("description"));
-           $form->addButton($this->getConfig()->get("btn"), 0, "textures/ui/realms_green_check");
+           $form->addButton($this->getConfig()->get("close_button"), 0, "textures/ui/realms_green_check");
            $form->sendToPlayer($sender);
            return $form;
    }
