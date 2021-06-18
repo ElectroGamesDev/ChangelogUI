@@ -3,8 +3,6 @@
 # Commands
  - /changelog
  - /cl
-# Dependencies
-FormAPI: https://poggit.pmmp.io/p/formapi
 # Config
 ```
 # Use "§" for adding colors.
