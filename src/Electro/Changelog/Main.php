@@ -17,6 +17,8 @@ use pocketmine\command\CommandSender;
 use pocketmine\command\CommandExecutor;
 use pocketmine\command\ConsoleCommandSender;
 
+use jojoe77777\FormAPI\SimpleForm;
+
 class Main extends PluginBase implements Listener{
    
    public function onEnable(){
