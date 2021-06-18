@@ -9,7 +9,7 @@ changelog.msg: "§aChangelog"
 title: "§lChangelog"
 
 # Enter Your Server Rules.
-description: "§b1.0 > Example 1 \n§b1.1 Example 2 \n§b1.3 > Example 3"
+description: "§b1.0 > Example 1 \n§b1.1 > Example 2 \n§b1.3 > Example 3"
 
 # Put the Closing Button.
 close_button: "§l§o§cExit \n§r§o§fTap to Close"
