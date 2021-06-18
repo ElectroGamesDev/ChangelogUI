@@ -29,7 +29,7 @@ class Main extends PluginBase implements Listener{
                  if($sender instanceof Player) {
                     $this->openChangelog($sender);
                  }else{
-                        $sender->sendMessage($this->getConfig()->get("use_in_game"));
+                        $sender->sendMessage("§cThis command can only be used in-game");
                         return true;
                     }
                  return true;
@@ -44,12 +44,6 @@ class Main extends PluginBase implements Listener{
            if($result === null){
                return true;
            }             
-           switch($result){
-               case 0:
-                    $sender->sendMessage($this->getConfig()->get("changelog.msg"));
-               break;
-
-               }
            });
            $form->setTitle($this->getConfig()->get("title"));
            $form->setContent($this->getConfig()->get("description"));
