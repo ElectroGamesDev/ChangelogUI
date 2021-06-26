@@ -3,22 +3,15 @@
 namespace Electro\Changelog;
 
 use jojoe77777\FormAPI\SimpleForm;
-use jojoe77777\FormAPI\CustomForm;
 
-use pocketmine\Server;
 use pocketmine\Player;
 
-use pocketmine\plugin\Plugin;
 use pocketmine\plugin\PluginBase;
 
 use pocketmine\event\Listener;
 
-use pocketmine\utils\TextFormat as C;
-
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-use pocketmine\command\CommandExecutor;
-use pocketmine\command\ConsoleCommandSender;
 
 class Main extends PluginBase implements Listener{
 
